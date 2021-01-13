@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_cr553_mtcs" />
+  <EntityRelationship Name="lk_cr553_mtcs_createdby" />
+  <EntityRelationship Name="lk_cr553_mtcs_modifiedby" />
+  <EntityRelationship Name="owner_cr553_mtcs" />
+  <EntityRelationship Name="team_cr553_mtcs" />
+  <EntityRelationship Name="user_cr553_mtcs" />
+</EntityRelationships>
