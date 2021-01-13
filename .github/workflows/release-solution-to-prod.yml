@@ -29,7 +29,7 @@ jobs:
     - name: Import solution as unmanaged to build env
       uses: microsoft/powerplatform-actions/import-solution@v0
       with:
-        environment-url: 'https://crm478527.crm.dynamics.com/'
+        environment-url: 'https://orge918ba0c.crm.dynamics.com'
         user-name: 'jeffh@CRM478527.OnMicrosoft.com'
         password-secret: ${{ secrets.password }}
         solution-file: out/solutions/ALMLab.zip
@@ -39,7 +39,7 @@ jobs:
     - name: Export solution as managed
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
-        environment-url: 'https://crm478527.crm.dynamics.com/'
+        environment-url: 'https://orge918ba0c.crm.dynamics.com/'
         user-name: 'jeffh@CRM478527.OnMicrosoft.com'
         password-secret: ${{ secrets.password }}
         solution-name: ALMLab
