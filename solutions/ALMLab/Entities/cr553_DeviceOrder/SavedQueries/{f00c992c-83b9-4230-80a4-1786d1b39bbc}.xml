@@ -6,29 +6,31 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{f7d179ac-1a22-4edd-8055-39d3afc452a3}</savedqueryid>
+    <savedqueryid>{f00c992c-83b9-4230-80a4-1786d1b39bbc}</savedqueryid>
     <layoutxml>
-      <grid name="resultset" jump="cr553_mtcname" select="1" icon="1" preview="1">
-        <row name="result" id="cr553_mtcsid">
-          <cell name="cr553_mtcname" width="300" />
+      <grid name="cr553_deviceorders" jump="cr553_devicename" select="1" icon="1" preview="0">
+        <row name="cr553_deviceorder" id="cr553_deviceorderid">
+          <cell name="cr553_devicename" width="300" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
     </layoutxml>
-    <querytype>1</querytype>
+    <querytype>64</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="cr553_mtcs">
-          <attribute name="cr553_mtcsid" />
-          <attribute name="cr553_mtcname" />
+        <entity name="cr553_deviceorder">
+          <attribute name="cr553_deviceorderid" />
+          <attribute name="cr553_devicename" />
           <attribute name="createdon" />
-          <order attribute="cr553_mtcname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
         </entity>
       </fetch>
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="MTCs Advanced Find View" languagecode="1033" />
+      <LocalizedName description="Device Order Lookup View" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

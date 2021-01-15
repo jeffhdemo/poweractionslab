@@ -6,11 +6,11 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{6c9b47e2-b1fc-49bd-a07f-4f77a187cad7}</savedqueryid>
+    <savedqueryid>{a6a49fb7-139b-425a-a37a-3ae1fb0aba1a}</savedqueryid>
     <layoutxml>
-      <grid name="cr553_mtcses" jump="cr553_mtcname" select="1" icon="1" preview="1">
-        <row name="cr553_mtcs" id="cr553_mtcsid">
-          <cell name="cr553_mtcname" width="300" />
+      <grid name="cr553_deviceorders" jump="cr553_devicename" select="1" icon="1" preview="1">
+        <row name="cr553_deviceorder" id="cr553_deviceorderid">
+          <cell name="cr553_devicename" width="300" />
           <cell name="createdon" width="125" />
         </row>
       </grid>
@@ -18,11 +18,11 @@
     <querytype>2</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
-        <entity name="cr553_mtcs">
-          <attribute name="cr553_mtcsid" />
-          <attribute name="cr553_mtcname" />
+        <entity name="cr553_deviceorder">
+          <attribute name="cr553_deviceorderid" />
+          <attribute name="cr553_devicename" />
           <attribute name="createdon" />
-          <order attribute="cr553_mtcname" descending="false" />
+          <order attribute="cr553_devicename" descending="false" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
           </filter>
@@ -31,7 +31,7 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="MTCs Associated View" languagecode="1033" />
+      <LocalizedName description="Device Order Associated View" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
