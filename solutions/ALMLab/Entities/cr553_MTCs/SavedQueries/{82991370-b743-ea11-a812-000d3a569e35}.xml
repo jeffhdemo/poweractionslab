@@ -6,12 +6,12 @@
     <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{0c65751b-0637-ea11-a813-000d3a569e35}</savedqueryid>
+    <savedqueryid>{82991370-b743-ea11-a812-000d3a569e35}</savedqueryid>
     <querytype>8192</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical" output-format="xml-platform">
-        <entity name="cr553_deviceorder">
-          <attribute name="cr553_deviceorderid" />
+        <entity name="cr553_mtcs">
+          <attribute name="cr553_mtcsid" />
           <filter type="and">
             <condition attribute="statecode" operator="eq" value="0" />
             <condition attribute="ownerid" operator="eq-userid" />
@@ -21,10 +21,10 @@
     </fetchxml>
     <IntroducedVersion>1.0.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My Device Orders" languagecode="1033" />
+      <LocalizedName description="My MTCs" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
-      <Description description="Active Device Orders owned by me" languagecode="1033" />
+      <Description description="Active MTCs owned by me" languagecode="1033" />
     </Descriptions>
   </savedquery>
 </savedqueries>

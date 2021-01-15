@@ -78,11 +78,15 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="cr553_deviceorder" behavior="0" />
-      <RootComponent type="9" schemaName="cr553_approvalstatus" behavior="0" />
-      <RootComponent type="29" id="{84387942-dc79-ea11-a811-000d3a569fe1}" behavior="0" />
-      <RootComponent type="300" schemaName="cr553_deviceorderingapp_9557a" behavior="0" />
+      <RootComponent type="1" schemaName="cr553_mtcs" behavior="0" />
+      <RootComponent type="62" schemaName="cr553_TestAppAML" behavior="0" />
+      <RootComponent type="80" schemaName="cr553_TestAppAML" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="80" schemaName="cr553_TestAppAML" displayName="TestAppAML" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
