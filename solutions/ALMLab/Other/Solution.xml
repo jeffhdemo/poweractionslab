@@ -6,7 +6,7 @@
       <LocalizedName description="ALMLab" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Cr28b66</UniqueName>
@@ -78,15 +78,11 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="cr553_mtcs" behavior="0" />
-      <RootComponent type="62" schemaName="cr553_TestAppAML" behavior="0" />
-      <RootComponent type="80" schemaName="cr553_TestAppAML" behavior="0" />
+      <RootComponent type="1" schemaName="cr553_deviceorder" behavior="0" />
+      <RootComponent type="9" schemaName="cr553_approvalstatus" behavior="0" />
+      <RootComponent type="29" id="{84387942-dc79-ea11-a811-000d3a569fe1}" behavior="0" />
+      <RootComponent type="300" schemaName="cr553_deviceorderingapp_9557a" behavior="0" />
     </RootComponents>
-    <MissingDependencies>
-      <MissingDependency>
-        <Required key="0" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="1" type="80" schemaName="cr553_TestAppAML" displayName="TestAppAML" />
-      </MissingDependency>
-    </MissingDependencies>
+    <MissingDependencies />
   </SolutionManifest>
 </ImportExportXml>
