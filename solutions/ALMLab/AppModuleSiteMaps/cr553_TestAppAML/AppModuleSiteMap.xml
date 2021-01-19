@@ -12,7 +12,7 @@
         </Titles>
         <SubArea Id="New_SubArea" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="cr553_mtcs" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1033" Title="MTCs - change" />
+            <Title LCID="1033" Title="MTCs" />
           </Titles>
         </SubArea>
       </Group>
