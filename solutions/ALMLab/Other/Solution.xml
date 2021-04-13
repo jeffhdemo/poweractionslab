@@ -6,7 +6,7 @@
       <LocalizedName description="ALMLab" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.3</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Cr28b66</UniqueName>
@@ -81,6 +81,7 @@
       <RootComponent type="1" schemaName="cr553_mtcs" behavior="0" />
       <RootComponent type="62" schemaName="cr553_TestAppAML" behavior="0" />
       <RootComponent type="80" schemaName="cr553_TestAppAML" behavior="0" />
+      <RootComponent type="300" schemaName="cr64a_helloworld_2ad14" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
